@@ -5,7 +5,7 @@
 ## Introduction
 
 This app allows users to communicate with platform owners.
-Users can send detailed questions or contribution using the contact form section by inputing their;
+Users can send detailed questions or contributions using the contact form section by inputing their;
 ```bash
 NAME,
 EMAIL,
@@ -15,7 +15,7 @@ MESSAGE
 ```
 The solution to the interview assignment
 
-## Installation
+## Setup Project
 
 * Clone this repo:
 
@@ -48,16 +48,14 @@ cp .env.example .env
 ```bash
 php artisan migrate
 ```
+>**NOTE**<br/>
+> DO NOT RUN SEEDERS
 
 * Run Project
 
 ```bash
 php artisan serve
 ```
-
-
->**NOTE**<br/>
-> DO NOT RUN SEEDERS
 
 ## Tests
 
