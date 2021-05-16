@@ -54,7 +54,7 @@ class ContactController extends Controller
 
         if ($content) {
 
-            Mail::to('godfredakpan@gmail.com')->send(new ContactMail($content));
+            // Mail::to('godfredakpan@gmail.com')->send(new ContactMail($content));
 
             session()->flash('success',"Your information have been successfully sent !");
 
