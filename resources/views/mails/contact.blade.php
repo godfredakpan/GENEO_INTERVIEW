@@ -8,9 +8,9 @@
 <div style="font-size:16px;text-align:left;">
     <div class="email-header" style="padding:20px">
         <h1 class="email-text-1" style="margin-bottom:30px;font-size:23px;color: #707070;font-weight: 600;text-align:center">Your message has been received</h1>
-        <p class="email-text-2" style="margin-bottom:10px;color: #707070;font-size:16px;text-align:left;line-height: 35px;">Hello {{ $content->name }},</p>
+        <p class="email-text-2" style="margin-bottom:10px;color: #707070;font-size:16px;text-align:left;line-height: 35px;">Hello {{ $content['name'] }},</p>
         <p class="email-text-2" style="margin-bottom:40px;color: #707070;font-size:16px;text-align:left;line-height: 35px;">
-        {{ $content->message }}
+        {{ $content['message'] }}
         </p>
 
         </div>
