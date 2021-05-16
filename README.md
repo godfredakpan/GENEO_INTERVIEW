@@ -11,13 +11,13 @@ The solution to the interview assignment
 * Clone this repo:
 
 ```bash
-git clone https://github.com/ichtrojan/carthook.git
+git clone https://github.com/godfredakpan/GENEO_INTERVIEW.git
 ```
 
 * Change directory to the project
 
 ```bash
-cd carthook
+cd GENEO_INTERVIEW
 ```
 
 * Install dependencies
@@ -50,27 +50,6 @@ To run tests, execute:
 ```bash
 php artisan test
 ```
-
-## Summary
-
-### API Calls
-
-The API calls to JSONPlaceholder are Scheduled Jobs that run Every 60 Seconds.
-
-### Data Caching
-
-On every successful API call, the data returned are stored in the Database and Cached to file for faster access. Ideally, I would have used Redis but choose to skip that to simplify the installation.
-
-### Database Structure
-
-![structure](https://res.cloudinary.com/ichtrojan/image/upload/v1590380793/carthook_ccpwvv.png)
-
-### Initial Call
-
-The first time an endpoint is being called, there is a 2 seconds delay to enable the Scheduled job to process the API call, cache and store to the database.
-Subsequent calls to the API should be processed withing 80ms on average.
-
-### 
 
 ## Conclusion
 
