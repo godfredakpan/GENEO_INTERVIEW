@@ -4,8 +4,8 @@
 
 ## Introduction
 
-This app allows users to communicate with platform owners.
-Users can send detailed questions or contributions using the contact form section by inputing their;
+This app allows users to communicate with platform owners,
+it gives users the oppurtunity to send detailed questions or contributions using the contact form section by inputing their;
 ```bash
 NAME,
 EMAIL,
@@ -13,7 +13,6 @@ UPLOAD DOCUMENTS(optional)
 MESSAGE
 
 ```
-The solution to the interview assignment
 
 ## Setup Project
 
