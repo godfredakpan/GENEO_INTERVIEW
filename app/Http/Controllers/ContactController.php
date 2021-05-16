@@ -52,6 +52,7 @@ class ContactController extends Controller
 
         $content = $this->contact->store($request);
 
+        return $content;
 
         if ($content) {
 
