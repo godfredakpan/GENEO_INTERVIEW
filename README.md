@@ -40,6 +40,13 @@ cp .env.example .env
 php artisan migrate
 ```
 
+* Run Project
+
+```bash
+php artisan serve
+```
+
+
 >**NOTE**<br/>
 > DO NOT RUN SEEDERS
 
