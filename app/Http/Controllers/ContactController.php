@@ -52,8 +52,6 @@ class ContactController extends Controller
 
         $content = $this->contact->store($request);
 
-        return $content;
-
         if ($content) {
 
             Mail::to('godfredakpan@gmail.com')->send(new ContactMail($content));

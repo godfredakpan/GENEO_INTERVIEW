@@ -28,6 +28,9 @@ class ContactRepository
 
             $contact->message = $request->message;
 
+            return $contact;
+
+            // If you need to save to database please uncomment the above code // return $contact;
             $contact->save();
 
             if ($contact) {
