@@ -43,7 +43,7 @@ class ContactController extends Controller
                 'required',
                 'regex:/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix',
                 'email',
-                new Throttle('email', $maxAttempts = 1, $minutes = 5)]
+                new Throttle('email', $maxAttempts = 10, $minutes = 5)]
             ,
             'document'  => 'mimes:pdf,xlsx,csv',
             'message'   => 'required',
@@ -51,6 +51,8 @@ class ContactController extends Controller
         ]);
 
         $content = $this->contact->store($request);
+
+        return $content;
 
         if ($content) {
 
