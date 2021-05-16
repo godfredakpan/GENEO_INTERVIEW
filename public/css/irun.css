@@ -1,0 +1,64 @@
+.btn-irun{
+    background-color: #B8566E !important;
+    border-color: #B8566E !important;
+}
+
+.btn-irun:hover{
+    background-color: #20405A !important;
+    border-color: #20405A  !important;
+}
+
+.btn-subscribe{
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.background-irun{
+    background-color: #20405A !important;
+}
+
+.btn-subscribe:hover{
+    background-color: #647f96 !important;
+    border-color: #647f96  !important;
+}
+.country-select{
+    -webkit-box-shadow: 1px 1px 0px rgba(50, 50, 50, 0.49);
+    -moz-box-shadow:    1px 1px 0px rgba(50, 50, 50, 0.49);
+    box-shadow:
+    0 2.8px 6.2px rgba(0, 0, 0, 0.045),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    border:0px solid gray;
+}
+
+.newsletter{
+    background-color: #DDE3E6;
+    border: 0px;
+    padding: 10px;
+}
+.path{
+    background-image: url(../images/bg.png);
+}
+
+.bg-irun-team{
+    background-color: #647f96 !important;
+}
+
+.file-upload{
+    display: inline-block;
+    background-color: #007ffe00;
+    color: #007DFE;
+    border-color: #007DFE;
+    border-style: solid;
+    border-width: thin;
+    padding: 0.5rem;
+    text-align: center;
+    /* font-family: sans-serif; */
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
