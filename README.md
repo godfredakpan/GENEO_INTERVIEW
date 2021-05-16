@@ -48,8 +48,6 @@ cp .env.example .env
 ```bash
 php artisan migrate
 ```
->**NOTE**<br/>
-> DO NOT RUN SEEDERS
 
 * Run Project
 
