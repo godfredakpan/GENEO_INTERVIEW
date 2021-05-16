@@ -17,11 +17,7 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', [ContactController::class, 'create'])->name('create.contact');
 
+Route::any('create', [ContactController::class, 'create'])->name('create.contact');
 
-Route::group(['prefix' => 'contact'], function () {
+Route::post('save', [ContactController::class, 'store'])->name('save.contact');
 
-    Route::any('create', [ContactController::class, 'create'])->name('create.contact');
-
-    Route::post('save', [ContactController::class, 'store'])->name('save.contact');
-
-});
