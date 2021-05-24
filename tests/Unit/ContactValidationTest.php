@@ -1,14 +1,11 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Unit;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Tests\TestCase;
-use AdditionalAssertions;
+use PHPUnit\Framework\TestCase;
 use App\Http\Requests\SaveContactRequest;
 
-class ContactValidation extends TestCase
+class ContactValidationTest extends TestCase
 {
 
     /** @test */

@@ -30,4 +30,9 @@ class SaveContactRequest extends FormRequest
             'name'      => 'required'
         ];
     }
+
+    public function passes()
+    {
+        return true;
+    }
 }
