@@ -58,7 +58,7 @@ class ContactController extends Controller
 
             session()->flash('success',"Your information have been successfully sent !");
 
-            return redirect()->route('create.contact')->with('alert', 'Investor created successfully !');
+            return redirect()->route('create.contact');
 
         } else {
 
